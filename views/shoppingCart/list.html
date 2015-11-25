@@ -1,0 +1,17 @@
+<h1>Shopping Cart <small></small></h1>
+<article ng-repeat="item in shoppingItems" class="item" data-id="{{item._id}}">
+  <header >
+    <div class="">
+      <a href="#/product/{{item._id}}">{{item.title}}</a>
+      <p>
+        "{{item.description}}"
+      </p>
+    </div>
+  </header>
+  <div class="pContain">
+      <img ng-src="{{item.cover}}" alt="" />
+      <span>{{item.price | currency:"฿"}}</span>
+
+  </div>
+
+</article>

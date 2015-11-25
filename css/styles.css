@@ -1,0 +1,74 @@
+a {
+  text-decoration: none; }
+
+article {
+  width: 30%;
+  border: solid #00675C 2px;
+  display: inline-block;
+  margin-left: 3%;
+  margin-bottom: 3%; }
+
+img {
+  max-width: 100%; }
+
+.topNav {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  position: absolute; }
+  .topNav .brand {
+    color: white; }
+
+.menuItems {
+  float: right;
+  width: 60%;
+  color: white; }
+  .menuItems a {
+    width: 30%;
+    display: inline-block;
+    text-decoration: none;
+    color: white; }
+
+.title {
+  color: #00675C;
+  font-family: "Impact", "Charcoal", sans-serif; }
+
+.front-page {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 1em;
+  z-index: 3; }
+  .front-page a {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    font-size: 2em;
+    z-index: 10;
+    margin-left: 40%;
+    top: 200px; }
+
+.post-container {
+  margin-top: 10%; }
+
+.individual-item {
+  width: 80%;
+  margin-left: 10%; }
+
+.text p, .text h1 {
+  width: 60%;
+  text-align: center; }
+
+.posts {
+  border: solid black 1px;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 3%; }
+
+.comment-input {
+  margin-top: 10%;
+  margin-left: 20%; }

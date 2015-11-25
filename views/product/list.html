@@ -1,0 +1,11 @@
+<h1>Product Listings <small></small></h1>
+<article ng-repeat="item in items" class="item" data-id="{{item._id}}">
+  <header >
+      <a class = "title" href="#/product/{{item._id}}">{{item.title}}</a>
+  </header>
+  <div class="product">
+      <img ng-src="{{item.cover}}" alt="" />
+      <span class = 'currency'>{{item.price | currency:"฿"}}</span>
+  </div>
+
+</article>
